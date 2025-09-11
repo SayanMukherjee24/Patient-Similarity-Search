@@ -1,9 +1,13 @@
+import nltk
+try:
+    nltk.data.find('tokenizers/punkt')
+except Exception:
+    nltk.download('punkt', quiet=True)
 import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import re
