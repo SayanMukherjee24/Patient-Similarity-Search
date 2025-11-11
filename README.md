@@ -1,4 +1,4 @@
-# Patient Similarity Search - ML Model with UI
+# Patient Similarity Search 
 
 A web application that uses machine learning to find patients with similar medical history based on diagnosis and treatment data.
 
@@ -98,3 +98,4 @@ The application is now configured to work with your `Patient_Analysis_Data.xls` 
 - Doctor recommendations
 
 The ML model will analyze all these fields to find the most similar patients based on your search query.
+
